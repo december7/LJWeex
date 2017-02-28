@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32657738AB64017230BD28EE /* libPods-LJWeexTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1703C4804A85A220788E2B86 /* libPods-LJWeexTests.a */; };
+		524A4443059C0D2B11B173D9 /* libPods-LJWeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47724D56F94444BE55C6F1A1 /* libPods-LJWeex.a */; };
+		D061C1A459D5B85F68CAB1D3 /* libPods-LJWeexUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DD467DBA4B97AA8FAD9632 /* libPods-LJWeexUITests.a */; };
+		DEC201F81E642C5800715BC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC201F71E642C5800715BC8 /* main.m */; };
+		DEC201FB1E642C5800715BC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC201FA1E642C5800715BC8 /* AppDelegate.m */; };
+		DEC202011E642C5800715BC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC201FF1E642C5800715BC8 /* Main.storyboard */; };
+		DEC202031E642C5800715BC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC202021E642C5800715BC8 /* Assets.xcassets */; };
+		DEC202061E642C5800715BC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC202041E642C5800715BC8 /* LaunchScreen.storyboard */; };
+		DEC202111E642C5800715BC8 /* LJWeexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC202101E642C5800715BC8 /* LJWeexTests.m */; };
+		DEC2021C1E642C5800715BC8 /* LJWeexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC2021B1E642C5800715BC8 /* LJWeexUITests.m */; };
+		DEC2022B1E642EBC00715BC8 /* MyViewComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC2022A1E642EBC00715BC8 /* MyViewComponent.m */; };
+		DEC2022E1E6447C400715BC8 /* WXEventModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC2022D1E6447C400715BC8 /* WXEventModule.m */; };
+		DEC202311E6448BA00715BC8 /* WXDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC202301E6448BA00715BC8 /* WXDemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEC2020D1E642C5800715BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEC201EB1E642C5800715BC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEC201F21E642C5800715BC8;
+			remoteInfo = LJWeex;
+		};
+		DEC202181E642C5800715BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEC201EB1E642C5800715BC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEC201F21E642C5800715BC8;
+			remoteInfo = LJWeex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1703C4804A85A220788E2B86 /* libPods-LJWeexTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJWeexTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1AE9D9A4B7CB76808DBA9A /* Pods-LJWeexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJWeexUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJWeexUITests/Pods-LJWeexUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47724D56F94444BE55C6F1A1 /* libPods-LJWeex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJWeex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5D88871DBFC3061EC7A740 /* Pods-LJWeex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJWeex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJWeex/Pods-LJWeex.debug.xcconfig"; sourceTree = "<group>"; };
+		68C03196AF2C21337007FE74 /* Pods-LJWeexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJWeexTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJWeexTests/Pods-LJWeexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D33810048998A49950D9FDB /* Pods-LJWeexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJWeexUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJWeexUITests/Pods-LJWeexUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BADBCA1F2E59C3701499DE00 /* Pods-LJWeexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJWeexTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJWeexTests/Pods-LJWeexTests.release.xcconfig"; sourceTree = "<group>"; };
+		DEC201F31E642C5800715BC8 /* LJWeex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJWeex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC201F71E642C5800715BC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEC201F91E642C5800715BC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEC201FA1E642C5800715BC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEC202001E642C5800715BC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEC202021E642C5800715BC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEC202051E642C5800715BC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEC202071E642C5800715BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC2020C1E642C5800715BC8 /* LJWeexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJWeexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC202101E642C5800715BC8 /* LJWeexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJWeexTests.m; sourceTree = "<group>"; };
+		DEC202121E642C5800715BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC202171E642C5800715BC8 /* LJWeexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJWeexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC2021B1E642C5800715BC8 /* LJWeexUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJWeexUITests.m; sourceTree = "<group>"; };
+		DEC2021D1E642C5800715BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC202291E642EBC00715BC8 /* MyViewComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewComponent.h; sourceTree = "<group>"; };
+		DEC2022A1E642EBC00715BC8 /* MyViewComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewComponent.m; sourceTree = "<group>"; };
+		DEC2022C1E6447C400715BC8 /* WXEventModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXEventModule.h; sourceTree = "<group>"; };
+		DEC2022D1E6447C400715BC8 /* WXEventModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXEventModule.m; sourceTree = "<group>"; };
+		DEC2022F1E6448BA00715BC8 /* WXDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDemoViewController.h; sourceTree = "<group>"; };
+		DEC202301E6448BA00715BC8 /* WXDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDemoViewController.m; sourceTree = "<group>"; };
+		E61E5ECB57B8B76EE9ADBD1A /* Pods-LJWeex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJWeex.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJWeex/Pods-LJWeex.release.xcconfig"; sourceTree = "<group>"; };
+		F2DD467DBA4B97AA8FAD9632 /* libPods-LJWeexUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJWeexUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEC201F01E642C5800715BC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A4443059C0D2B11B173D9 /* libPods-LJWeex.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC202091E642C5800715BC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32657738AB64017230BD28EE /* libPods-LJWeexTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC202141E642C5800715BC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D061C1A459D5B85F68CAB1D3 /* libPods-LJWeexUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0015535AC2EAA4FC00C041CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A5D88871DBFC3061EC7A740 /* Pods-LJWeex.debug.xcconfig */,
+				E61E5ECB57B8B76EE9ADBD1A /* Pods-LJWeex.release.xcconfig */,
+				68C03196AF2C21337007FE74 /* Pods-LJWeexTests.debug.xcconfig */,
+				BADBCA1F2E59C3701499DE00 /* Pods-LJWeexTests.release.xcconfig */,
+				2B1AE9D9A4B7CB76808DBA9A /* Pods-LJWeexUITests.debug.xcconfig */,
+				7D33810048998A49950D9FDB /* Pods-LJWeexUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C4E6396216D727099B44549 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47724D56F94444BE55C6F1A1 /* libPods-LJWeex.a */,
+				1703C4804A85A220788E2B86 /* libPods-LJWeexTests.a */,
+				F2DD467DBA4B97AA8FAD9632 /* libPods-LJWeexUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEC201EA1E642C5800715BC8 = {
+			isa = PBXGroup;
+			children = (
+				DEC201F51E642C5800715BC8 /* LJWeex */,
+				DEC2020F1E642C5800715BC8 /* LJWeexTests */,
+				DEC2021A1E642C5800715BC8 /* LJWeexUITests */,
+				DEC201F41E642C5800715BC8 /* Products */,
+				0015535AC2EAA4FC00C041CA /* Pods */,
+				4C4E6396216D727099B44549 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DEC201F41E642C5800715BC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEC201F31E642C5800715BC8 /* LJWeex.app */,
+				DEC2020C1E642C5800715BC8 /* LJWeexTests.xctest */,
+				DEC202171E642C5800715BC8 /* LJWeexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEC201F51E642C5800715BC8 /* LJWeex */ = {
+			isa = PBXGroup;
+			children = (
+				DEC201F91E642C5800715BC8 /* AppDelegate.h */,
+				DEC201FA1E642C5800715BC8 /* AppDelegate.m */,
+				DEC2022C1E6447C400715BC8 /* WXEventModule.h */,
+				DEC2022D1E6447C400715BC8 /* WXEventModule.m */,
+				DEC2022F1E6448BA00715BC8 /* WXDemoViewController.h */,
+				DEC202301E6448BA00715BC8 /* WXDemoViewController.m */,
+				DEC202291E642EBC00715BC8 /* MyViewComponent.h */,
+				DEC2022A1E642EBC00715BC8 /* MyViewComponent.m */,
+				DEC201FF1E642C5800715BC8 /* Main.storyboard */,
+				DEC202021E642C5800715BC8 /* Assets.xcassets */,
+				DEC202041E642C5800715BC8 /* LaunchScreen.storyboard */,
+				DEC202071E642C5800715BC8 /* Info.plist */,
+				DEC201F61E642C5800715BC8 /* Supporting Files */,
+			);
+			path = LJWeex;
+			sourceTree = "<group>";
+		};
+		DEC201F61E642C5800715BC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEC201F71E642C5800715BC8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEC2020F1E642C5800715BC8 /* LJWeexTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEC202101E642C5800715BC8 /* LJWeexTests.m */,
+				DEC202121E642C5800715BC8 /* Info.plist */,
+			);
+			path = LJWeexTests;
+			sourceTree = "<group>";
+		};
+		DEC2021A1E642C5800715BC8 /* LJWeexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEC2021B1E642C5800715BC8 /* LJWeexUITests.m */,
+				DEC2021D1E642C5800715BC8 /* Info.plist */,
+			);
+			path = LJWeexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEC201F21E642C5800715BC8 /* LJWeex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC202201E642C5800715BC8 /* Build configuration list for PBXNativeTarget "LJWeex" */;
+			buildPhases = (
+				73110A8B31B076CCDCA2CA52 /* [CP] Check Pods Manifest.lock */,
+				DEC201EF1E642C5800715BC8 /* Sources */,
+				DEC201F01E642C5800715BC8 /* Frameworks */,
+				DEC201F11E642C5800715BC8 /* Resources */,
+				B4B35CB8A149B2CAAC29AF48 /* [CP] Embed Pods Frameworks */,
+				239BA738984ECA413B4ABE8C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJWeex;
+			productName = LJWeex;
+			productReference = DEC201F31E642C5800715BC8 /* LJWeex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEC2020B1E642C5800715BC8 /* LJWeexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC202231E642C5800715BC8 /* Build configuration list for PBXNativeTarget "LJWeexTests" */;
+			buildPhases = (
+				FC498502E0E4BE5F4018BADC /* [CP] Check Pods Manifest.lock */,
+				DEC202081E642C5800715BC8 /* Sources */,
+				DEC202091E642C5800715BC8 /* Frameworks */,
+				DEC2020A1E642C5800715BC8 /* Resources */,
+				50FC89CE9FE26AEB73309323 /* [CP] Embed Pods Frameworks */,
+				9B935A8912DFFCC81651A9CB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEC2020E1E642C5800715BC8 /* PBXTargetDependency */,
+			);
+			name = LJWeexTests;
+			productName = LJWeexTests;
+			productReference = DEC2020C1E642C5800715BC8 /* LJWeexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEC202161E642C5800715BC8 /* LJWeexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC202261E642C5800715BC8 /* Build configuration list for PBXNativeTarget "LJWeexUITests" */;
+			buildPhases = (
+				48DD3C225773CC2E5366C197 /* [CP] Check Pods Manifest.lock */,
+				DEC202131E642C5800715BC8 /* Sources */,
+				DEC202141E642C5800715BC8 /* Frameworks */,
+				DEC202151E642C5800715BC8 /* Resources */,
+				17F8A66A7B238AF24FB8F0F6 /* [CP] Embed Pods Frameworks */,
+				D6B310AC34A501A0C0BA4360 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEC202191E642C5800715BC8 /* PBXTargetDependency */,
+			);
+			name = LJWeexUITests;
+			productName = LJWeexUITests;
+			productReference = DEC202171E642C5800715BC8 /* LJWeexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEC201EB1E642C5800715BC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = imac;
+				TargetAttributes = {
+					DEC201F21E642C5800715BC8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DEC2020B1E642C5800715BC8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEC201F21E642C5800715BC8;
+					};
+					DEC202161E642C5800715BC8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEC201F21E642C5800715BC8;
+					};
+				};
+			};
+			buildConfigurationList = DEC201EE1E642C5800715BC8 /* Build configuration list for PBXProject "LJWeex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEC201EA1E642C5800715BC8;
+			productRefGroup = DEC201F41E642C5800715BC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEC201F21E642C5800715BC8 /* LJWeex */,
+				DEC2020B1E642C5800715BC8 /* LJWeexTests */,
+				DEC202161E642C5800715BC8 /* LJWeexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEC201F11E642C5800715BC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC202061E642C5800715BC8 /* LaunchScreen.storyboard in Resources */,
+				DEC202031E642C5800715BC8 /* Assets.xcassets in Resources */,
+				DEC202011E642C5800715BC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC2020A1E642C5800715BC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC202151E642C5800715BC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17F8A66A7B238AF24FB8F0F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJWeexUITests/Pods-LJWeexUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		239BA738984ECA413B4ABE8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJWeex/Pods-LJWeex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48DD3C225773CC2E5366C197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50FC89CE9FE26AEB73309323 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJWeexTests/Pods-LJWeexTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73110A8B31B076CCDCA2CA52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B935A8912DFFCC81651A9CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJWeexTests/Pods-LJWeexTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4B35CB8A149B2CAAC29AF48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJWeex/Pods-LJWeex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6B310AC34A501A0C0BA4360 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJWeexUITests/Pods-LJWeexUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC498502E0E4BE5F4018BADC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEC201EF1E642C5800715BC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC202311E6448BA00715BC8 /* WXDemoViewController.m in Sources */,
+				DEC2022E1E6447C400715BC8 /* WXEventModule.m in Sources */,
+				DEC2022B1E642EBC00715BC8 /* MyViewComponent.m in Sources */,
+				DEC201FB1E642C5800715BC8 /* AppDelegate.m in Sources */,
+				DEC201F81E642C5800715BC8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC202081E642C5800715BC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC202111E642C5800715BC8 /* LJWeexTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC202131E642C5800715BC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC2021C1E642C5800715BC8 /* LJWeexUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEC2020E1E642C5800715BC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEC201F21E642C5800715BC8 /* LJWeex */;
+			targetProxy = DEC2020D1E642C5800715BC8 /* PBXContainerItemProxy */;
+		};
+		DEC202191E642C5800715BC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEC201F21E642C5800715BC8 /* LJWeex */;
+			targetProxy = DEC202181E642C5800715BC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEC201FF1E642C5800715BC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEC202001E642C5800715BC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEC202041E642C5800715BC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEC202051E642C5800715BC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEC2021E1E642C5800715BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEC2021F1E642C5800715BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEC202211E642C5800715BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5D88871DBFC3061EC7A740 /* Pods-LJWeex.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LJWeex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linjiahaoyi.test.LJWeex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEC202221E642C5800715BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E61E5ECB57B8B76EE9ADBD1A /* Pods-LJWeex.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LJWeex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linjiahaoyi.test.LJWeex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEC202241E642C5800715BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C03196AF2C21337007FE74 /* Pods-LJWeexTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LJWeexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linjiahaoyi.test.LJWeexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJWeex.app/LJWeex";
+			};
+			name = Debug;
+		};
+		DEC202251E642C5800715BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BADBCA1F2E59C3701499DE00 /* Pods-LJWeexTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LJWeexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linjiahaoyi.test.LJWeexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJWeex.app/LJWeex";
+			};
+			name = Release;
+		};
+		DEC202271E642C5800715BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B1AE9D9A4B7CB76808DBA9A /* Pods-LJWeexUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LJWeexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linjiahaoyi.test.LJWeexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJWeex;
+			};
+			name = Debug;
+		};
+		DEC202281E642C5800715BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D33810048998A49950D9FDB /* Pods-LJWeexUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LJWeexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linjiahaoyi.test.LJWeexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJWeex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEC201EE1E642C5800715BC8 /* Build configuration list for PBXProject "LJWeex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC2021E1E642C5800715BC8 /* Debug */,
+				DEC2021F1E642C5800715BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC202201E642C5800715BC8 /* Build configuration list for PBXNativeTarget "LJWeex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC202211E642C5800715BC8 /* Debug */,
+				DEC202221E642C5800715BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC202231E642C5800715BC8 /* Build configuration list for PBXNativeTarget "LJWeexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC202241E642C5800715BC8 /* Debug */,
+				DEC202251E642C5800715BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC202261E642C5800715BC8 /* Build configuration list for PBXNativeTarget "LJWeexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC202271E642C5800715BC8 /* Debug */,
+				DEC202281E642C5800715BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEC201EB1E642C5800715BC8 /* Project object */;
+}
